@@ -1,0 +1,220 @@
+* {
+  font-family: 'Roboto';
+}
+header.bg-white .logo {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 1px;
+}
+header.bg-white .logo img {
+  padding-right: 10px;
+}
+header.bg-white nav a {
+  text-decoration: none;
+}
+header.bg-white nav a.nav-text {
+  color: #3C3B3B;
+}
+header.bg-white nav a.nav-text:hover {
+  color: #356DA7;
+  text-decoration: underline;
+}
+.top-action-bar {
+  background-color: #356DA7;
+  height: 171px;
+}
+.top-action-bar h4 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.top-action-bar .btn:hover {
+  color: #0069d9;
+  background-color: #fff;
+  border-color: #fff;
+}
+.issue-filter {
+  margin: 40px 0 50px;
+}
+.issue-card {
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  background-color: #fff;
+}
+@media (max-width: 560px) {
+  .issue-card {
+    padding: 20px 10px;
+  }
+}
+.issue-card__top-details {
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .issue-card__top-details {
+    flex-direction: column;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
+.issue-card__id {
+  font-size: 13px;
+  color: #727272;
+  margin-bottom: 0;
+}
+@media (max-width: 560px) {
+  .issue-card__id {
+    font-weight: bold;
+  }
+}
+.issue-card__actions button {
+  font-size: 12px;
+}
+.issue-card__actions button:first-child {
+  margin-right: 10px;
+}
+.issue-card__status {
+  min-width: 56px;
+  padding: 3px 15px;
+  height: 21px;
+  margin-top: 5px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+.issue-card__title {
+  font-size: 15px;
+  color: #000000;
+  margin-top: 20px;
+}
+.issue-card__description {
+  font-size: 12px;
+  color: #727272;
+}
+.issue-card__creator-details {
+  font-size: 10px;
+  color: #8F9BA3;
+}
+.issue-card__creator-details p {
+  margin-bottom: 0;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.issue-card__creator-details p img {
+  margin-right: 5px;
+}
+.modal-dialog {
+  max-width: 650px;
+}
+.modal-content {
+  border-color: #EAEAEA;
+}
+.modal-content .modal-header {
+  padding: 30px 40px 0;
+  border-bottom: 0;
+}
+.modal-content .modal-header .modal-title {
+  font-size: 20px;
+}
+.modal-content .modal-body {
+  padding: 30px 40px;
+}
+.modal-content .modal-body form label {
+  font-size: 12px;
+}
+.modal-content .modal-body form .form-control {
+  border-color: #CCD8E0;
+  font-size: 13px;
+  padding: 9px 12px;
+}
+.modal-content .modal-body form .form-action-button {
+  margin-top: 25px;
+}
+.modal-content .modal-body form .form-action-button .btn {
+  font-size: 13px;
+  padding: 12px;
+  min-width: 93px;
+}
+.modal-content .modal-body form textarea {
+  height: 84px;
+}
+.form-inline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.form-control {
+  border-color: #CCD8E0;
+  font-size: 13px;
+  padding: 9px 12px;
+  height: 36px;
+}
+.form-control::-webkit-input-placeholder {
+  color: #CCD8E0;
+}
+select.form-control:not([size]):not([multiple]) {
+  height: 36px;
+}
+.btn-primary {
+  background-color: #00B0F0;
+  font-size: 17px;
+}
+.btn-primary__dark {
+  background-color: #0069C3;
+  color: #fff;
+}
+.btn-secondary {
+  background-color: #9D9C9C;
+  font-size: 10px;
+}
+.btn-warning {
+  background-color: #E6BA56;
+  color: #fff;
+}
+.btn-success {
+  background-color: #08A55D;
+  color: #fff;
+}
+.btn-danger {
+  background-color: #E24E3B;
+}
+.btn-round {
+  border-radius: 20px;
+}
+.btn-default {
+  background-color: #fff;
+  border-color: #ACC1D0;
+  color: #637F96;
+}
+.btn-default:hover {
+  border-color: #E24E3B;
+  color: #E24E3B;
+}
+.bg-default {
+  background-color: #9D9C9C;
+}
+.bg-blue {
+  background-color: #0069C3;
+}
+.bg-green {
+  background-color: #08A55D;
+}
+.font-size-10 {
+  font-size: 10px;
+}
